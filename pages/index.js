@@ -76,19 +76,16 @@ const Home = () => {
         </div>
       </div>
       <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            {/* <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with love</p> */}
-            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arjunms" data-color="#BD5FFF" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-          </div>
-        </a>
+        <div className="badge">
+          <a href="https://www.buymeacoffee.com/arjunms">
+            <img
+              style={{ height: "70px" }}
+              alt="Buy Me a Coffee Widget"
+              src="/black-button.png"
+            />
+          </a>
+        </div>
       </div>
-      
     </div>
   );
 };
