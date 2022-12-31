@@ -76,15 +76,16 @@ const Home = () => {
         </div>
       </div>
       <div className="badge-container grow">
-        <div className="badge">
+        {/* <div className="badge"> */}
           <a href="https://www.buymeacoffee.com/arjunms">
             <img
-              style={{ height: "70px" }}
+              // style={{ height: "70px" }}
               alt="Buy Me a Coffee Widget"
               src="/black-button.png"
+              class="badge"
             />
           </a>
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );
