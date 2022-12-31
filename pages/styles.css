@@ -220,6 +220,7 @@ textarea {
 
 
 .badge {
+    height: 70px;
     display: flex;
     align-items: center;
 }
@@ -304,14 +305,25 @@ textarea {
     .prompt-box {
         width: 100%;
     }
+    
+    .badge-container{
+        position: relative;
+    }
+
+    .badge{
+        
+        position: relative;
+    }
 }
 
-@media (max-width: 809px) {
+@media screen and (max-width: 809px) {
     .container {
         max-width: 500px;
         width: 100%;
     }
-
+    .header-subtitle h2 {
+        text-align: center;
+    }
     .prompt-container {
         max-width: 500px;
         width: 100%;
@@ -320,9 +332,19 @@ textarea {
     .prompt-box {
         width: 100%;
     }
+
+    .badge-container{
+        position: relative;
+    }
+
+    .badge{
+        
+        position: relative;
+    }
+    
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         max-width: 400px;
         width: 100%;
@@ -345,12 +367,23 @@ textarea {
     }
 
     .prompt-container {
-        max-width: 400px;
-        width: 100%;
+        
+        width:80vw !important;
     }
 
     .prompt-box {
-        width: 100%;
+        
+        width:80vw !important;
+    }
+
+    .badge-container{
+        left: 0.1%;
+        position: relative;
+    }
+
+    .badge{
+        left: 0.1%;
+        position: relative;
     }
 }
 
