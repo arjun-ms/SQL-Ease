@@ -19,6 +19,7 @@
 - Cross platform
 
 
+<br>
 
 ![SQL Ease](/assets/supershot.png)
 
