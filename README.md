@@ -18,15 +18,20 @@
 
 ![SQL Ease](/assets/supershot.png)
 
+<br>
+
 ## Features ❤️‍🔥
 
 - Generate SQL Queries from Plain English
 - Cross platform
 
+<br>
+
 ## Demo 📼
 
 [![SQL Query generator using AI #shorts](https://img.youtube.com/vi/S_bu1qPaz_w/0.jpg)](https://www.youtube.com/watch?v=S_bu1qPaz_w)
 
+<br>
 
 ## Environment Variables 🔑
 
@@ -34,6 +39,7 @@ To run this project, you will need to add the following environment variables to
 
 `OPENAI_API_KEY`
 
+<br>
 
 ## Run Locally 🏃🏻
 
@@ -61,7 +67,7 @@ Start the server
   npm run start
 ```
 
-
+<br>
 
 ## Contributing 📜
 
@@ -70,7 +76,7 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-
+<br>
 
 ## Feedback 📮
 
