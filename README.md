@@ -1,15 +1,13 @@
 
 <div align="center">
 <img width="110px" src="/assets/sql-ease-sqr.png">
-<h1>SQL Ease</h1></div>
+</div>
 
 
 
 <p align="center">
-    <p align="center">Are you tired of struggling with SQL syntax? 🤨
-
-    Introducing an AI-powered web app to generate SQL query from plain english 📃
-</p>
+    <p align="center">Are you tired of struggling with SQL syntax? 🤨</p>
+    <p align="center">Introducing an AI-powered web app to generate SQL query from plain english 📃</p>
 </p>
 
 ![SQL Ease](/assets/supershot.png)
