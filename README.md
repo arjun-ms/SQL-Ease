@@ -3,18 +3,21 @@
 <img width="110px" src="/assets/sql-ease-sqr.png">
 </div>
 
-
-
+---
+ 
 <p align="center">
     <p align="center">Are you tired of struggling with SQL syntax? 🤨</p>
     <p align="center">Introducing an AI-powered web app to generate SQL query from plain english 📃</p>
 </p>
 
+---
+<br>
+
 ![SQL Ease](/assets/supershot.png)
 
 ## Demo
 
-<iframe width="461" height="820" src="https://www.youtube.com/embed/S_bu1qPaz_w" title="SQL Query generator using AI #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![SQL Query generator using AI #shorts](https://img.youtube.com/vi/S_bu1qPaz_w/0.jpg)](https://www.youtube.com/watch?v=S_bu1qPaz_w)
 
 ## Contributing
 
