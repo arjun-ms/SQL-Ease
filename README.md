@@ -12,16 +12,17 @@
 
 ---
 <br>
+❤️ If you like the product, consider an upvote 👇
+
+[SQL Ease](https://www.producthunt.com/posts/sql-ease)
+
+
+![SQL Ease](/assets/supershot.png)
 
 ## Features
 
 - Generate SQL Queries from Plain English
 - Cross platform
-
-
-<br>
-
-![SQL Ease](/assets/supershot.png)
 
 ## Demo
 
