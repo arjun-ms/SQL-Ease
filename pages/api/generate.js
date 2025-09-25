@@ -53,7 +53,7 @@ const generateAction = async (req, res) => {
 
     const response = await client.responses.create({
       // model: "mixtral-8x7b-instruct", // Groq recommends Mixtral for SQL/text
-      model: "openai/gpt-oss-120b" // gpt oss model
+      model: "openai/gpt-oss-120b", // gpt oss model
       input: `${basePromptPrefix}${req.body.userInput}`,
       temperature: 0.8,
       max_output_tokens: 250,
