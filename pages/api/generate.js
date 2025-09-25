@@ -31,7 +31,7 @@
 
 
 
-import { OpenAI } from "openai";
+import OpenAI from "openai";
 
 const client = new OpenAI({
   apiKey: process.env.GROQ_API_KEY, // keep this safe in .env.local
