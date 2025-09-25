@@ -20,11 +20,22 @@ const Home = () => {
       body: JSON.stringify({ userInput }),
     });
 
+    if (!response.ok) {
+      // Handle HTTP errors (like 405, 500, etc.)
+      const errorData = await response.json().catch(() => ({}));
+      throw new Error(errorData.error || "Something went wrong");
+    }
+
     const data = await response.json();
     const { output } = data;
-    console.log("OpenAI replied...", output.text)
+    // console.log("OpenAI replied...", output.text)
 
-    setApiOutput(`${output.text}`);
+    // setApiOutput(`${output.text}`);
+
+    // Groq API response
+    console.log("API replied...", output);
+    setApiOutput(output);
+    
     setIsGenerating(false);
   }
   const onUserChangedText = (event) => {
